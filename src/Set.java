@@ -68,9 +68,4 @@ public interface Set<T>
      * Returns the new set.
      */
     public Set<T> difference(Set<T> anotherSet);
-    
-    /**
-     * Returns an iteration of the Set
-     */
-    public Iterator<T> iterator();
 }
