@@ -4,6 +4,9 @@ public class SymbolMatching {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
 
+        // you will need to create either an ArrayStack or a ListStack
+        Stack<String> symbolStack;
+
         System.out.print("Enter a phrase: ");
         String phrase = keyboard.nextLine();
 
